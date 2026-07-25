@@ -1,0 +1,306 @@
+body {
+    background: radial-gradient(circle, rgba(8, 75, 89, 0.35) 0%, rgb(3, 3, 17) 70%);
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 30px;
+
+    backdrop-filter: blur(20px);
+    width: 100%;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    height: 45px;
+    animation: sa 0.3 infinite;
+    animation: sa 2s forwards;
+
+
+    position: fixed;
+    z-index: 1000;
+
+}
+
+.sed {
+    display: flex;
+    gap: 0px;
+    padding: 80px;
+    align-items: center;
+    width: 60px;
+
+}
+
+.meb {
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-top: 0%;
+
+}
+
+.meb:hover {
+    text-shadow: 0 0 10px rgba(0, 195, 255, 0.6);
+}
+
+.h9 {
+    font-size: 35px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    letter-spacing: 8px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.02);
+    text-transform: uppercase;
+}
+
+.saloma {
+     margin-right: 50px;
+    font-size: 12px;
+    width: 90;
+    text-align: center;
+    padding-right: 30px;
+}
+
+.sedd {
+    width: 42px;
+    border-radius: 45px;
+}
+
+.ab {
+    width: 1200px;
+    align-items: center;
+    padding: 30px;
+    padding-left: 160px;
+}
+
+.h88 {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 100;
+    padding-top: 0px;
+    padding: 10px;
+    padding-left: 20px;
+
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+    animation: aka 7s forwards;
+
+}
+
+.video2 {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(40%);
+
+    left: auto;
+    padding: 0%;
+
+
+}
+
+.red {
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 20px;
+    border-bottom: 700px;
+    margin-top: 500px;
+    background-color: transparent;
+    color: white;
+    height: 40px;
+
+}
+
+.h4 {
+    color: rgb(57, 56, 56);
+    font-size: 20px;
+    font-style: unset;
+
+    margin-bottom: 12px;
+
+    width: 250px;
+    padding-top: 30px;
+    padding-right: 100px;
+
+}
+.a1{
+    font-size: 200px;
+}
+
+footer+nav h1,
+footer h1 {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    perspective: 1000px;
+    user-select: none;
+}
+
+.a1 {
+    font-size: 17px;
+    text-decoration: none;
+  
+}
+.nav2{
+    display: flex;
+    justify-content: space-around;
+}
+.p4 {
+    font-weight: 300;
+    font-size: 15px;
+
+    padding-top: 20px;
+    font-family: sans-serif;
+
+    color: rgba(227, 231, 235, 0.737);
+
+    padding-bottom: 50px;
+
+}
+
+.h5 {
+    display: block;
+}
+
+.footers {
+    background-color: transparent;
+    color: white;
+    width: 11110px;
+    
+}
+.oxironw {
+    width: 180px;
+}
+
+.h6 {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+.su {
+    display: flex;
+    gap: 10px;
+
+    color: white;
+
+}
+
+.se {
+    display: block;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+button {
+    padding: 15px 35px;
+    font-size: 13px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    overflow: hidden;
+    box-shadow: 0 -1px 0 0 rgba(255, 255, 255, 0.2),
+        0 10px 30px rgba(0, 0, 0, 0.5);
+
+}
+
+button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.25);
+    transform: skewX(-30deg);
+    transition: 3s;
+
+}
+
+button:hover::before {
+    left: 120%;
+}
+
+button:hover {
+    transform: scale(1.08);
+    background: #ffffff;
+    color: #000;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6),
+        0 0 40px rgba(255, 255, 255, 0.4);
+}
+
+button:active {
+    transform: scale(0.96);
+}
+
+/* Барои экранҳои хурд (телефонҳо ва планшетҳо) */
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 10px 15px;
+    }
+    
+    .sed {
+        padding: 0;
+        width: auto;
+    }
+
+    .h9 {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    .ab {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .h88 {
+        font-size: 16px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footers {
+        width: 100%;
+    }
+
+    .nav2 {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .a1 {
+        font-size: 14px;
+    }
+
+    .red {
+        margin-top: 200px;
+        width: 90%;
+    }
+}
